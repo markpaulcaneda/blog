@@ -43,4 +43,4 @@ LARAVEL PROJECT
 
 1. WELCOME PAGE
 
-![alt](ScreenShots/WelcomePage)
+![alt](ScreenShots/WelcomePage.JPG)
