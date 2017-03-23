@@ -39,8 +39,42 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
+##
 LARAVEL PROJECT
 
 1. WELCOME PAGE
 
 ![alt](ScreenShots/WelcomePage.JPG)
+
+2. HOME PAGE
+![alt](ScreenShots/HomePage.JPG)
+
+3. CREATE 
+![alt](ScreenShots/CreatePage.JPG)
+
+
+4. LOGIN
+![alt](ScreenShots/LoginPage.JPG)
+
+
+5. EDIT
+![alt](ScreenShots/EditPage.JPG)
+
+
+6. FLASH MESSAGE
+![alt](ScreenShots/FlashMessage.JPG)
+
+
+7. FORM VALIDATION
+![alt](ScreenShots/FormValidation.JPG)
+
+
+8. REGISTRATION FORM
+![alt](ScreenShots/RegistrationForm.JPG)
+
+
+
+9. CREATED BLOG
+![alt](ScreenShots/SampleCreatedBlog.JPG)
+
+
