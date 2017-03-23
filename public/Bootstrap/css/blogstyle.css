@@ -1,0 +1,280 @@
+body{
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  margin-left: 500px;
+  margin-top: 10px;
+}
+
+ul li {
+  display: inline;
+  text-align: center;
+}
+
+a {
+  display: inline-block;
+  width: 25%;
+  padding: .75rem 0;
+  margin: 0;
+  text-decoration: none;
+  color: white;
+}
+
+.two:hover ~ hr {
+  margin-left: 25%;
+}
+
+.three:hover ~ hr {
+  margin-left: 50%;
+}
+
+.four:hover ~ hr {
+  margin-left: 75%;
+}
+
+hr {
+  height: .15rem;
+  width: 25%;
+  margin: 0;
+  background: tomato;
+  border: none;
+  transition: .3s ease-in-out;
+}
+.head{
+  background-color: black;
+  margin-top: 80px;
+  opacity: 0.5;
+  width: 60%;
+  margin-left: 200px;
+  border-radius: 10px;
+  height: 150px;
+  position: fixed;
+}
+.line{
+  height: .1rem;
+    width: 80%;
+    background: #d0dbed;
+    border: none;
+    transition: .3s ease-in-out;
+    margin-left: 60px;
+}
+p{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 3px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
+.btn {
+  font-family: 'Oswald', sans-serif;
+  display: block;
+  height: 40px;
+  padding: 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  width: 190px;
+  font-size: 13px;
+  line-height: 2em;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all .3s ease-in-out;
+  position: absolute;
+  top: 55%;
+  left: 60%;
+  color: #fff;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+.btn3 {
+  font-family: 'Oswald', sans-serif;
+  display: block;
+  height: 40px;
+  padding: 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  width: 190px;
+  font-size: 13px;
+  line-height: 2em;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all .3s ease-in-out;
+  position: absolute;
+  top: 55%;
+  left: 20%;
+    color: #fff;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+.content1{
+  background-color: white;
+  width: 100%;
+  margin-top: 400px;
+  height: 184px;
+  opacity: 0.7;
+  z-index: -1;
+  position: fixed;
+}
+footer{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 13px;
+  font-weight: normal;
+  position: fixed;
+}
+.box{
+  margin-top: 20px;
+  float:left;
+  margin-right: 30px;
+}
+.button {
+    font-family: 'Oswald', sans-serif;
+  display: block;
+  height: 40px;
+  padding: 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  width: 190px;
+  font-size: 13px;
+  line-height: 2em;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all .3s ease-in-out;
+  position: absolute;
+  top: 55%;
+  left: 40%;
+    color: #fff;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 80%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 2px;
+  left: 770px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  height: 100%;
+
+ 
+}
+@media screen and (max-width: 1000px){
+  .box{
+    width: 100%;
+  }
+  .popup{
+    width: 100%;
+  }
+}
+.scrollbar
+{
+  height: 300px;
+  width: 100%;
+  background: #F5F5F5;
+  overflow-y: scroll;
+  margin-bottom: 25px;
+}
+
+.force-overflow
+{
+  min-height: 600px;
+}
+
+#wrapper
+{
+  text-align: center;
+  width: 800px;
+  margin-right: 400px;
+}
+.btn-success{
+  margin-top: 140px;
+  margin-left: 100px ;
+}
+
+
+
+<div id="popup1" class="overlay">
+  <div class="popup">
+    <h2>Fill Up this Form!</h2>
+    <a class="close" href="#">&times;</a>
+    <div class="content">
+    <div id="wrapper">
+    <div class="scrollbar">
+      <div class="force-overflow">
+        <form method="post" action="/sign_up">
+    {{ csrf_field() }}
+    <input type="text" name="first_name" class="form-control" placeholder="First Name" required><br>
+    <input type="text" name="middle_name" class="form-control" placeholder="Middle Name" required><br>
+    <input type="text" name="last_name" class="form-control" placeholder="Last Name" required><br>
+    <input type="text" name="address" class="form-control" placeholder="Address" required><br>
+    <input type="text" name="country" class="form-control" placeholder="Country" required><br>
+    <input type="text" name="gender" class="form-control" placeholder="Gender" required><br>
+    <input type="text" name="contact_number" class="form-control" placeholder="Contact Number" required><br>
+    <input type="text" name="username" class="form-control" placeholder="Username" required><br>
+    <input type="password" name="password" class="form-control" placeholder="Password" required><br>
+    <input type="text" name="email" class="form-control" placeholder="Email" required><br>
+    <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+      </div>
+    </div>
+   </div>
+  </div>
+</div>
